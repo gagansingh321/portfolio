@@ -1,0 +1,28 @@
+:root {
+    --bs-primary: #007bff; /* Customize primary color */
+    --bs-secondary: #6c757d;
+    --bs-dark: #343a40;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #343a40);
+    color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
